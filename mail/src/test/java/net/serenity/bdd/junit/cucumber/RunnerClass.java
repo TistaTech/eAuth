@@ -9,7 +9,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @CucumberOptions(
 		features = "src/test/resources/features/", 
 		plugin = {"pretty","html:target/cucumber", "json:target/json/cucumber.json"},
-		tags = {"@Login"},
+		tags = {"@ComposeMail"},
 		dryRun = false
 		)
 
