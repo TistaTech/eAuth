@@ -7,8 +7,9 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features = "src/test/resources/features/Compose", 
+		features = "src/test/resources/features/", 
 		plugin = {"pretty","html:target/cucumber", "json:target/json/cucumber.json"},
+		tags = {"@Login"},
 		dryRun = false
 		)
 
