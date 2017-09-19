@@ -13,7 +13,7 @@ Feature: Compose an email via Microsoft email
     Then I should see a successful mail sent
 
     Examples: Valid Data
-      | userName              | password    | toAddress              | subject   | body       |
-      | mmetoff@tistatech.com | 95088114Mm! | marat.metoff@gmail.com | Test Mail | Hi, Marat! |
-      | mmetoff@tistatech.com | 95088114Mm! | maratraze@.gmail.com   | Test Mail | Hi, Marat! |
-      | mmetoff@tistatech.com | 95088114Mm! | mmetoff@tistatech.com  | Test Mail | Hi, Al!    |
+      | userName              | password    | toAddress              | subject   | body         |
+      | mmetoff@tistatech.com | 95088114Mm! | marat.metoff@gmail.com | Test Mail | Hi, Marat!   |
+      | mmetoff@tistatech.com | 95088114Mm! | mushtaq.a.khan@irs.gov | Test Mail | Hi, Mushtaq! |
+      | mmetoff@tistatech.com | 95088114Mm! | syamini@tistatech.com  | Test Mail | Hi, Sahar!   |
